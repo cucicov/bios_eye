@@ -9,10 +9,10 @@ max_motor_rotation = 70
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
 enable_pin=18
-coil_A_1_pin = 4 # pink
-coil_A_2_pin = 17 # orange
-coil_B_1_pin = 23 # blue
-coil_B_2_pin = 24 # yellow
+coil_A_1_pin = 4 # blue
+coil_A_2_pin = 17 # yellow
+coil_B_1_pin = 23 # green
+coil_B_2_pin = 24 # gray
  
 # adjust if different
 StepCount = 8
